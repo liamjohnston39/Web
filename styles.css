@@ -1,0 +1,138 @@
+@font-face {
+    font-family: bang_4_ya_buck;
+    src: url("fonts/bang 4 ya buck.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+html {
+
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 50%;
+    margin-left: 8vw;
+}
+
+.left img {
+    width: 40%;
+}
+
+.nav {
+    font-family: bang_4_ya_buck;
+    font-size: 4.5vw;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    margin: :10vh 1%;
+    margin-left: 11vh;
+    padding: 5vh 0px;
+    width: 50%
+}
+
+
+.nav li {
+    margin: 2%;
+    color: black;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: grey;
+}
+
+.calc,
+.left,
+.right,
+.top {
+    min-height: 40vh;
+    width: 43%;
+    margin: 2vh 2%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 1, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: 'Anton';
+}
+
+.top {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    margin: 2vh 5%;
+    min-height: 20vh;
+    Font-size: 35px;
+    font-family: 'Anton', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+ 
+.left a{
+    font-size: 19px;
+    font-family: 'Anton';
+    color: black;
+}
+.left a:hover{
+    color: grey;
+}
+.right a{
+    font-size: 19px;
+    font-family: 'Anton';
+    color: black;}
+.right a:hover{
+    color: grey;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h3 {}
+
+.right img {
+    width: 24vh;
+}
+
+.top img {
+    width: 45vh;
+    margin-left: 29vw;
+
+}
+
+h2 {
+    text-align: center;
+}
+.calc{
+    text-align: center;
+    font-size: 3.5vw;
+}
+.calc h2{
+    font-family:"anton";
+}
+h4,h5{
+    text-align: center;
+}
+
