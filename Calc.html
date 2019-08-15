@@ -1,0 +1,53 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Zenith </title>
+    <script>
+        function calculate() {
+            var data = document.getElementById("sizeData").value;
+            if (data < 57) {
+                document.getElementById("answer").innerHTML = 'Your size is Small';
+            } else {
+                document.getElementById("answer").innerHTML = 'Your size is Large';
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="images/Logo3.png" alt="Logo">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Products.html">Products</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="calc">
+            <h2>Size Calculator</h2>
+
+            <input type="number" name="size" id="sizeData">
+            <button type="submit" value="submit" onclick="calculate()">Submit</button>
+            <p id= "answer"></p>
+    
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+</body>
